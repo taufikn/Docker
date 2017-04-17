@@ -10,17 +10,17 @@ Contoh gambar diatas merupakan simulasi ketika kita mempunyai tiga buah docker a
 **Docker Machine** merupakan tool yang kita instal pada docker engine dan berjalan diatas virtual host. Docker machine digunakan untuk memanage host dikomputer lokal kita.
 
 ### Cara instal Docker Machine
-* Pertama download terlebih dahulu apk docker machinenya pada link dibawah ini:
+Pertama download terlebih dahulu apk docker machinenya pada link dibawah ini:
 curl -L
 > https://github.com/docker/machine/releases/download/v0.8.2/docker-machine-`uname -s`-`uname -m` >/usr/local/bin/docker-machine
 
-* Kemudian berikan hak akses file tersebut pada direktori seperti berikut:
+Kemudian berikan hak akses file tersebut pada direktori seperti berikut:
 > chmod +x /usr/local/bin/docker-machine
 
-*Jika sudah terinstal, gunakan perintah dibawah ini untuk mengechek apakah sudah terinstal.
+Jika sudah terinstal, gunakan perintah dibawah ini untuk mengechek apakah sudah terinstal.
 > docker-machine -v
 
-### Bagaimana cara install Worker atau Node pada Docker Machine
+### Bagaimana cara instal Worker atau Node pada Docker Machine
 
 Pada simulasi ini saya akan menggabungkan dua buah node dan satu leader, jadi terlebih dahulu saya instal dua buah worker/node dengan perintah seperti dibawah ini:
 > docker-machine create --driver virtualbox node1
@@ -78,3 +78,5 @@ Lakukan pengechekan apakah semua node (leader dan para worker) sudah saling terh
 <p align="center"><img src="images/10.png"/>
 
 ## Deploy Services ke Docker swarm
+
+#tobeconued

@@ -79,4 +79,4 @@ Lakukan pengechekan apakah semua node (leader dan para worker) sudah saling terh
 
 ## Deploy Services ke Docker swarm
 
-#tobeconued
+#tobecontinued
